@@ -43,7 +43,7 @@ void dibujarTriangulo(){
 	glPushMatrix();
 	//Se colocan antes de glBegin
 
-	glTranslatef(0.15f,-0.30f,0.0f);
+	glTranslatef(0.15f,-0.30f,0.0f); 
 	glRotatef(angulo,0.0f,1.0f,0.0);
 	//glScalef(5.0f,2.0f,1.0f);
 
